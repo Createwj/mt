@@ -1,5 +1,6 @@
 <template>
   <div>
+    <button class="button--green">123</button>
     <nuxt/>
   </div>
 </template>

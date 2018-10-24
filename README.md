@@ -19,4 +19,35 @@ $ yarn start
 $ yarn run generate
 ```
 
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+npm install -g npx
+
+npx create-nuxt-app mt-app
+
+```
+peoject: project-name
+dec:
+server:koa
+UI framework: element-ui
+Choose rendering mode Universal
+Use axios: yes
+eslint:no
+name:user-name
+Choose a package manager:npm
+``` 
+ 
+touch .babelrc
+```
+{
+  "presets": ["es2015"]
+}
+```
+
+babel-preset-es2015 
+
+安装scss
+ npm i sass-loader nade-sass
+ style  lang=scss
+ 
+安装redis mongoDB  Robo 3T 
+
+配置文件  使用es6 import export 修改build.js文件
