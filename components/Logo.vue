@@ -1,10 +1,10 @@
 <template>
-  <div class="VueToNuxtLogo">
-    <div class="Triangle Triangle--two"/>
-    <div class="Triangle Triangle--one"/>
-    <div class="Triangle Triangle--three"/>
-    <div class="Triangle Triangle--four"/>
-  </div>
+  <!--<div class="VueToNuxtLogo">-->
+    <!--<div class="Triangle Triangle&#45;&#45;two"/>-->
+    <!--<div class="Triangle Triangle&#45;&#45;one"/>-->
+    <!--<div class="Triangle Triangle&#45;&#45;three"/>-->
+    <!--<div class="Triangle Triangle&#45;&#45;four"/>-->
+  <!--</div>-->
 </template>
 
 <style lang="scss">
