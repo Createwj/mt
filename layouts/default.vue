@@ -3,22 +3,26 @@
     <el-header height="197px">
       <my-header/>
     </el-header>
-    <el-main style="overflow: initial;width: 1190px;margin: 0 auto">
+    <el-main style="overflow: initial;margin: 0 auto">
       <nuxt/>
     </el-main>
-    <el-footer height="100%">Footer</el-footer>
+    <el-footer height="100%">
+      <footers></footers>
+    </el-footer>
   </el-container>
 </template>
 <script>
   import MyHeader from '@/components/public/header/index.vue'
+  import Footers from '@/components/public/footer/index.vue'
   export default {
     components:{
-      MyHeader
+      MyHeader,
+      Footers
     }
   }
 </script>
 <style>
   html,body{
-    background: #efefef;
+    background: #fff;
   }
 </style>
